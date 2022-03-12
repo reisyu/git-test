@@ -1,0 +1,23 @@
+{
+  "name": "hello-web-ifc-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c ./rollup.config.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "three": "0.135",
+    "web-ifc": "0.0.33",
+    "web-ifc-viewer": "1.0.148"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.47.0"
+  }
+}
